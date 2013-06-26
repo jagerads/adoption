@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faceted-project>
+  <runtime name="VMware vFabric tc Server Developer Edition (Runtime) v2.7"/>
+  <fixed facet="jst.web"/>
+  <fixed facet="jst.java"/>
+  <installed facet="jst.web" version="2.5"/>
+  <installed facet="jst.java" version="1.7"/>
+</faceted-project>

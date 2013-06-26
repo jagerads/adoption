@@ -1,0 +1,6 @@
+<footer>
+	<div class="intro dib">
+		<p class="fl">Copyright © 2013, Jordan and Kaylah Gerads</p>
+		<p class="fr"><a href="<c:url value="/aboutSite/"/>">About this site</a></p>
+	</div>
+</footer>

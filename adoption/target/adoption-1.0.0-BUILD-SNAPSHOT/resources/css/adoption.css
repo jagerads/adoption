@@ -1,0 +1,369 @@
+/* ie5 win - grrr - start */
+body { 
+	font: small serif;
+    margin: 0px; 
+	padding: 0px; 
+	line-height: 14px;
+	color: #000;
+	font-size: x-small;
+	voice-family: "\"}\""; 
+	voice-family: inherit;
+	font-size: small;
+	text-align: center; }
+/* ie5 win - grrr - end */
+ 
+/* opera - grrr - start */
+html>body {
+	font-size: small;
+	}
+/* opera - grrr - end */
+
+html {
+	overflow-y: scroll;
+}
+
+/* start of the real css */
+
+/* basic elements */
+body { 
+	color: #444; 
+	background-color: rgb(200,200,225);
+ 	background-image: url('../image/background.jpg');
+	background-position: top center;
+	background-repeat: repeat-y;
+	font-size: 11px; 
+	line-height: 14px;
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-align: left;
+    margin: 0px; 
+	padding: 0px;
+	}
+p {
+	font-size: 11px; 
+	line-height: 14px;
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-align: left; 
+	margin: 0px; 
+	padding: 0px;
+	}
+h1, h2, h3 {
+	font-size: 11px; 
+	line-height: 14px;
+	font-weight: bold; 
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-align: left; 
+	margin: 0px; 
+	padding: 0px;
+	}
+	
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: rgb(160,160,200);
+	}
+a:visited, 
+a:visited:hover { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: rgb(125,125,160);
+	}
+a:hover, 
+a:active { 
+	text-decoration: underline; 
+	color: rgb(185,185,200);
+	}
+abbr { 
+	font-weight: normal; 
+	font-style: normal;
+	border: 0;
+	}
+
+/* major divs */
+.page-wrapper { 
+	width: 700px; 
+	position: relative;   
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+	}
+	
+.contact {
+	width: 700px;
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: #ddd;
+	border: 1px solid #aaa;    
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+}
+
+.contact a {
+	color: rgb(100,100,140);
+}
+
+.contact a[href*='facebook.com'] {
+	background-image: url('../image/facebook.png');
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	}
+
+.contact p {
+	margin: 0px 10px 0px 10px;
+	text-align: justify;
+}
+
+.intro {
+ 	width: 450px;
+	margin: 0px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px;
+	}
+	
+.main {
+ 	width: 450px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 10px 0px 10px;
+	}
+	
+.sidebar {
+  position: absolute;
+  top: 255px;
+  left: 0px;
+ 	width: 220px;
+	margin: 0px 0px 0px 482px;
+	padding: 0px 0px 0px 0px;
+	}
+	
+/* minor divs */
+header {
+ 	width: 700px;
+ 	height: 20px; /* strange but ie6 needs this */
+ 	background-image: url('../image/banner.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	border-top: 0px;
+	border-right: 1px solid #aaa;    
+	border-bottom: 1px solid #aaa;    
+	border-left: 1px solid #aaa;    
+	margin: 0px 0px 0px 0px; 
+	padding: 224px 0px 0px 0px;
+	}
+	
+header h1 {
+ 	width: 600px;
+	color: #fff;
+	font-size: 24px; 
+	line-height: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: -200px 0px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	}
+	
+header h2 {
+ 	width: 600px;
+	color: #fff;
+	font-size: 12px; 
+	line-height: 16px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 10px;
+	padding: 0px 0px 10px 4px;
+	}
+		
+.summary {
+ 	width: 450px;
+	background-position: top center;
+	background-repeat: repeat;
+	background-color: rgb(100,100,140);
+	border: 1px solid #aaa;    
+	margin: 10px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+	}
+
+.preamble {
+ 	width: 450px;
+	border: 1px solid #aaa;    
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 10px 0px 10px;
+	}
+	
+.content,
+.participation,
+.benefits,
+.requirements {
+ 	width: 450px;
+	border: 1px solid #aaa;    
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-color: #fff;	
+	margin: 10px -10px 0px -10px;
+	padding: 10px 10px 10px 10px;
+	display: block;
+	}
+	
+/* .main img { */
+/* 	float: right; */
+/* 	margin: 5px 0px 0px 0px; */
+/* 	padding: 0px 0px 0px 5px; */
+/* 	vertical-align: baseline; */
+/* 	background: transparent; */
+/* } */
+
+.ifr {
+	float: right;
+	margin-top: 5px;
+	padding-left: 5px;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+.ifl {
+	float: left;
+	margin-top: 5px;
+	padding-right: 5px;
+	vertical-align: baseline;
+	background: transparent;
+}
+	
+footer {
+ 	width: 450px;
+	border: 1px solid #aaa;    
+	background-position: center center;
+	background-repeat: repeat;
+	background-color: rgb(100,100,140);	
+	margin: 10px -10px 20px -10px;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	}
+	
+footer p {
+	color : #fff;
+}
+	
+.content p,
+.participation p,
+.benefits p,
+.requirements p,
+.preamble p {
+	margin-bottom: 8px;
+	text-align: justify;
+	}
+
+.content span {
+	margin: 0px 0px 5px 5px;
+	padding: 0px 0px 10px 0px;
+	float: right;
+}
+
+.preamble h3,
+.main h3 {
+	color: rgb(125,125,160);
+	background-color: #ddd;
+	background-position: bottom center;
+	background-repeat: repeat;
+	font-size: 11px; 
+	line-height: 16px;
+	text-transform: uppercase;
+	margin: -10px -10px 4px -10px;
+	padding: 4px 4px 4px 10px;
+	}
+	
+.summary p:first-child { 
+	color: #fff ! important;
+	font-size: 10px ! important;
+	line-height: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 10px 0px;
+	}
+	
+.summary p:last-child { 
+	color: #fff ! important;
+	font-size: 10px ! important;
+	line-height: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: left; 
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	}
+	
+.sidebar ul {
+	border-top: 1px dotted #ccc;
+	margin: 5px 5px 0px 5px; 
+	padding: 0px 0px 0px 0px;
+	}
+	
+.sidebar li {
+	display: block;
+	list-style-type: none;
+	color: #000;
+	background-color: #f8f8f8;
+	font-size: 11px; 
+	line-height: 14px;
+	font-weight: normal; 
+	font-style: italic;
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-align: left; 
+	border-bottom: 1px dotted #ccc;
+	margin: 0px 0px 0px 0px; 
+	padding: 3px 5px 3px 5px;
+	}
+	
+li.pl_20 {
+	padding-left: 20px;
+}
+	
+.sidebar li a:link,
+.sidebar li a:visited, 
+.sidebar li a:visited:hover,
+.sidebar li a:hover, 
+.sidebar li a:active {
+	font-style: normal;
+	padding-right: 5px;
+	}
+	
+a.designer-name { 
+	color: #6c9e2d ! important;
+	font-weight: normal ! important;
+	font-style: italic ! important;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 14px 0px 0px;
+	}
+
+.sidebar h3 {
+	color: rgb(100,100,140);
+	background-color: #ddd;
+	background-position: center right;
+	background-repeat: repeat-x;
+	font-size: 11px; 
+	line-height: 16px;
+	font-weight: bold; 
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-transform: uppercase;
+	text-align: left; 
+	border-bottom: 1px solid #aaa;
+	margin: 0px 0px 0px 0px; 
+	padding: 3px 5px 3px 5px;
+	}
+	
+.navigation,
+#lfavorites {
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	border: 1px solid #aaa;    
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 5px 0px;
+	}
+	
+/* hovers */
+	
+.sidebar li:hover {
+	background-color: #fefefe;
+	}

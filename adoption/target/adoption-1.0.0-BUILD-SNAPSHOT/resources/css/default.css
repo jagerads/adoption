@@ -1,0 +1,17 @@
+body { 
+	color: #444; 
+	background-color: #edf6e3;
+ 	background-image: url(700_28.jpg);
+	background-position: top center;
+	background-repeat: repeat-y;
+	font-size: 11px; 
+	line-height: 14px;
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-align: left;
+  	margin: 0px; 
+	padding: 0px;
+}
+
+h1 {
+	color: #999;
+}

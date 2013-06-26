@@ -1,0 +1,63 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<%-- Navigation Links --%>
+<c:url var="home" value="/"/>
+<c:url var="aboutUs" value="/aboutUs"/>
+<c:url var="aboutJordan" value="/aboutUs?name=Jordan"/>
+<c:url var="aboutKaylah" value="/aboutUs?name=Kaylah"/>
+<c:url var="aboutPadraig" value="/aboutUs?name=Padraig"/>
+<c:url var="pictures" value="/pictures/"/>
+<c:url var="videos" value="/videos/"/>
+<c:url var="adoptionBlog" value="http://somedaysoonafamily.blogspot.com/"/>
+
+<%-- Kaylah Links --%>
+
+<%-- Jordan Links --%>
+
+<aside class="sidebar">
+	<div class="wrapper">
+		<div class="navigation" style="margin-top: 10px;">
+			<h3 class="select">Nagivation</h3>
+			<nav role="navigation">
+				<ul>
+					<li><a href="${home}">Home</a></li>
+					<li><a href="${aboutUs}">About Us</a></li>
+					<li class="pl_20"><a href="${aboutJordan}">About Jordan</a></li>
+					<li class="pl_20"><a href="${aboutKaylah}">About Kaylah</a></li>
+					<li class="pl_20"><a href="${aboutPadraig}">About Padraig</a></li>
+					<li><a href="${pictures}">Pictures</a></li>
+					<li><a href="${videos}">Videos</a></li>
+					<li><a target="_blank" href="${adoptionBlog}">Our Adoption Blog</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div class="navigation">
+			<h3 class="select">Kaylah's Links</h3>
+			<nav role="navigation">
+				<ul>
+					<li>
+						<a href="/adoption/">Home</a>
+					</li>
+					<li>
+						<a href="/adoption/aboutUs">About Us</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div class="navigation">
+			<h3 class="select">Jordan's Links</h3>
+			<nav role="navigation">
+				<ul>
+					<li>
+						<a href="/adoption/">Home</a>
+					</li>
+					<li>
+						<a href="/adoption/aboutUs">About Us</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</aside>
